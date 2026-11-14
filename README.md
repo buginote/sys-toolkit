@@ -4,23 +4,10 @@
 
 ## 目录
 
-- [网络代理 (Sing-box / Snell)](#网络代理-sing-box--snell)
 - [系统备份恢复 (rclone)](#系统备份恢复-rclone)
 - [fail2ban 管理](#fail2ban-管理)
 - [Docker 安装](#docker-安装)
 - [图床工具 (img)](#图床工具-img)
-
-## 网络代理 (Sing-box)
-
-Sing-box（Snell / Shadowsocks2022 / VLESS+Reality / Hysteria2 / AnyTLS / SOCKS5 / HTTP）的安装、配置、节点管理与中转。其中 Snell 节点类型自 sing-box 1.14.0 起支持。
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/mlang233/sys-toolkit/master/server-proxy.sh -o server-proxy.sh
-chmod +x server-proxy.sh
-sudo ./server-proxy.sh
-```
-
-要求：Linux（systemd），root 权限；Sing-box 使用官方通用安装器（deb/rpm、Arch Linux 等）。安装时可选择正式版 / 最新 Beta 版 / 指定版本：正式版自动解析最新稳定版，Beta 自动解析最新预发布版；Snell 节点需 sing-box ≥ 1.14.0，1.14 起的正式版已支持 Snell，无需特意选择 Beta 版。
 
 ## 系统备份恢复 (rclone)
 
